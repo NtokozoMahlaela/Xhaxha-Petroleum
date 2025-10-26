@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xhaxha Petroleum | Fuelling the Future Together</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="Style.css"/>
+    
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <div class="logo-icon"></div>
+            <span>XHAXHA PETROLEUM</span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#fuel-request">Fuel Request</a></li>
+            <li><a href="#map-section">Location</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Empowering Lives Through Sustainable Energy Solutions</h1>
+            <p>Leading South African petroleum wholesaler delivering premium fuels and lubricants with excellence and innovation</p>
+            <a href="#fuel-request" class="cta-button">Request Fuel Now</a>
+        </div>
+        <div class="scroll-indicator"></div>
+    </section>
+
+    <section class="section" id="about">
+        <h2 class="section-title">Why Choose Xhaxha Petroleum</h2>
+        <div class="features">
+            <div class="feature-card">
+                <div class="feature-icon">🏆</div>
+                <h3>Level 1 B-BBEE</h3>
+                <p>Proudly contributing to inclusive growth and transformation in South Africa's energy sector</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">✓</div>
+                <h3>Premium Quality</h3>
+                <p>High-grade petroleum products sourced from reputable refineries with strict quality control</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🚛</div>
+                <h3>Reliable Supply</h3>
+                <p>Consistent delivery backed by strong logistics partnerships across South Africa</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🛡️</div>
+                <h3>Safety First</h3>
+                <p>Full compliance with SANS 10089, DMRE licensing, and ISO best practices</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💡</div>
+                <h3>Innovation Driven</h3>
+                <p>Digital fuel tracking systems and cutting-edge management solutions</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🌱</div>
+                <h3>Sustainability</h3>
+                <p>Committed to responsible energy practices and environmental stewardship</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section stats">
+        <div class="stat-item">
+            <h3>2024</h3>
+            <p>Established</p>
+        </div>
+        <div class="stat-item">
+            <h3>Level 1</h3>
+            <p>B-BBEE Status</p>
+        </div>
+        <div class="stat-item">
+            <h3>6+</h3>
+            <p>Product Categories</p>
+        </div>
+        <div class="stat-item">
+            <h3>24/7</h3>
+            <p>Support Available</p>
+        </div>
+    </section>
+
+    <section class="section" id="products" style="background: var(--light);">
+        <h2 class="section-title">Our Products</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <h3>⛽ Bulk Fuels</h3>
+                <ul class="product-list">
+                    <li>Diesel (50ppm & 500ppm)</li>
+                    <li>Unleaded Petrol 93</li>
+                    <li>Unleaded Petrol 95</li>
+                    
+                    
+                </ul>
+            </div>
+            <div class="product-card">
+                <h3>🔧 Lubricants & Oils</h3>
+                <ul class="product-list">
+                    <li>Automotive Lubricants</li>
+                    <li>Industrial Lubricants</li>
+                    <li>Hydraulic Oils</li>
+                    <li>Greases</li>
+                  
+                </ul>
+            </div>
+            <div class="product-card">
+                <h3>📦 Value-Added Services</h3>
+                <ul class="product-list">
+                    <li>On-site Fuel Deliveries</li>
+                    <li>Tanker Rental & Logistics</li>
+                    <li>Fuel Management Systems</li>
+                    <li>Monitoring Solutions</li>
+                    <li>B-BBEE Procurement Support</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="services">
+        <h2 class="section-title">Industries We Serve</h2>
+        <div class="features">
+            <div class="feature-card">
+                <div class="feature-icon">🏗️</div>
+                <h3>Construction & Mining</h3>
+                <p>Reliable bulk fuel supply for heavy machinery and operations</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🌾</div>
+                <h3>Agriculture</h3>
+                <p>Diesel and lubricants for farming equipment and operations</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🚚</div>
+                <h3>Transport & Logistics</h3>
+                <p>Fuel solutions for fleets and transportation companies</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🏭</div>
+                <h3>Manufacturing</h3>
+                <p>Industrial lubricants and energy solutions</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🏛️</div>
+                <h3>Government & Municipalities</h3>
+                <p>Compliant fuel procurement for public sector</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⛽</div>
+                <h3>Fuel Resellers</h3>
+                <p>Wholesale supply for service stations and retailers</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fuel Request Section -->
+    <section class="section fuel-request-section" id="fuel-request">
+        <h2 class="section-title">Request Fuel Delivery</h2>
+        <div class="request-container">
+            <div class="request-steps">
+                <div class="step active" id="step1">
+                    <div class="step-number">1</div>
+                    <div class="step-label">Fuel Details</div>
+                </div>
+                <div class="step" id="step2">
+                    <div class="step-number">2</div>
+                    <div class="step-label">Delivery Info</div>
+                </div>
+                <div class="step" id="step3">
+                    <div class="step-number">3</div>
+                    <div class="step-label">Review & Submit</div>
+                </div>
+            </div>
+
+            <div class="request-form-container">
+                <!-- Step 1: Fuel Details -->
+                <div class="form-step active" id="formStep1">
+                    <div class="form-header">
+                        <h3>Select Fuel Type & Quantity</h3>
+                        <p>Choose the fuel products you need and specify the quantity</p>
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="fuelType">Fuel Type</label>
+                            <select id="fuelType" required>
+                                <option value="">Select Fuel Type</option>
+                                <option value="diesel-50ppm">Diesel (50ppm)</option>
+                                <option value="diesel-500ppm">Diesel (500ppm)</option>
+                                <option value="petrol-93">Unleaded Petrol (93 Octane)</option>
+                                <option value="petrol-95">Unleaded Petrol (95 Octane)</option>
+                                
+                                
+                              
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="quantity">Quantity (Litres)</label>
+                            <div class="quantity-input">
+                                <button type="button" class="quantity-btn" id="decreaseQuantity">-</button>
+                                <input type="number" id="quantity" min="100" max="50000" value="1000" step="100">
+                                <button type="button" class="quantity-btn" id="increaseQuantity">+</button>
+                            </div>
+                            <small>Minimum order: 100 litres</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="urgency">Urgency</label>
+                            <select id="urgency" required>
+                                <option value="standard">Standard (3-5 business days)</option>
+                                <option value="express">Express (1-2 business days)</option>
+                                <option value="emergency">Emergency (Same day)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-secondary" disabled>Previous</button>
+                        <button type="button" class="btn btn-primary" id="nextToStep2">Next</button>
+                    </div>
+                </div>
+
+                <!-- Step 2: Delivery Information -->
+                <div class="form-step" id="formStep2">
+                    <div class="form-header">
+                        <h3>Delivery Information</h3>
+                        <p>Provide details about where and when to deliver your fuel</p>
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="deliveryAddress">Delivery Address</label>
+                            <input type="text" id="deliveryAddress" placeholder="Street address" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="deliveryCity">City/Suburb</label>
+                            <input type="text" id="deliveryCity" placeholder="City or suburb" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="deliveryPostalCode">Postal Code</label>
+                            <input type="text" id="deliveryPostalCode" placeholder="Postal code" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="deliveryDate">Preferred Delivery Date</label>
+                            <input type="date" id="deliveryDate" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="deliveryTime">Preferred Time Window</label>
+                            <select id="deliveryTime" required>
+                                <option value="morning">Morning (8:00 - 12:00)</option>
+                                <option value="afternoon">Afternoon (12:00 - 16:00)</option>
+                                <option value="evening">Evening (16:00 - 20:00)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="specialInstructions">Special Instructions</label>
+                            <textarea id="specialInstructions" placeholder="Any special delivery requirements..."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-secondary" id="backToStep1">Previous</button>
+                        <button type="button" class="btn btn-primary" id="nextToStep3">Next</button>
+                    </div>
+                </div>
+
+                <!-- Step 3: Review & Submit -->
+                <div class="form-step" id="formStep3">
+                    <div class="form-header">
+                        <h3>Review Your Order</h3>
+                        <p>Please review your fuel request before submitting</p>
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <h4>Fuel Details</h4>
+                            <div class="summary-item">
+                                <span>Fuel Type:</span>
+                                <span id="reviewFuelType">-</span>
+                            </div>
+                            <div class="summary-item">
+                                <span>Quantity:</span>
+                                <span id="reviewQuantity">-</span>
+                            </div>
+                            <div class="summary-item">
+                                <span>Urgency:</span>
+                                <span id="reviewUrgency">-</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <h4>Delivery Information</h4>
+                            <div class="summary-item">
+                                <span>Address:</span>
+                                <span id="reviewAddress">-</span>
+                            </div>
+                            <div class="summary-item">
+                                <span>City:</span>
+                                <span id="reviewCity">-</span>
+                            </div>
+                            <div class="summary-item">
+                                <span>Postal Code:</span>
+                                <span id="reviewPostalCode">-</span>
+                            </div>
+                            <div class="summary-item">
+                                <span>Delivery Date:</span>
+                                <span id="reviewDeliveryDate">-</span>
+                            </div>
+                            <div class="summary-item">
+                                <span>Time Window:</span>
+                                <span id="reviewDeliveryTime">-</span>
+                            </div>
+                            <div class="summary-item">
+                                <span>Special Instructions:</span>
+                                <span id="reviewInstructions">-</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-secondary" id="backToStep2">Previous</button>
+                        <button type="button" class="btn btn-primary" id="submitRequest">Submit Request</button>
+                    </div>
+                </div>
+
+                <!-- Confirmation Step -->
+                <div class="form-step" id="formStep4">
+                    <div class="confirmation-message">
+                        <div class="confirmation-icon">✓</div>
+                        <h3>Fuel Request Submitted Successfully!</h3>
+                        <p>Thank you for your fuel request. Our team will contact you within 2 hours to confirm your order and discuss delivery details.</p>
+                        <p>Your reference number is: <strong id="referenceNumber">XP-2024-001</strong></p>
+                        <button type="button" class="btn btn-primary" id="newRequest" style="margin-top: 2rem;">Make Another Request</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section map-section" id="map-section">
+        <div id="map"></div>
+        <div class="map-overlay">
+            <h3>Our Location</h3>
+            <p>📍 9 Cedar Avenue West, Fourways</p>
+            <p>Sandton, 2191, South Africa</p>
+            <p>📞 +27 83 309 9640</p>
+            <p>✉️ xhaxhapetroleum@outlook.com</p>
+        </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+        <h2 class="section-title" style="color: white;">Get In Touch</h2>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div>
+                        <strong>Address</strong>
+                        <p>9 Cedar Avenue West, Fourways<br>Sandton, 2191, South Africa</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📞</div>
+                    <div>
+                        <strong>Phone</strong>
+                        <p>+27 83 309 9640</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">✉️</div>
+                    <div>
+                        <strong>Email</strong>
+                        <p>xhaxhapetroleum@outlook.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">🕐</div>
+                    <div>
+                        <strong>Business Hours</strong>
+                        <p>Monday - Friday<br>08:00 - 17:00</p>
+                    </div>
+                </div>
+                <div class="badge">Level 1 B-BBEE Contributor</div>
+            </div>
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Xhaxha Petroleum</h4>
+                <p>Proudly South African petroleum wholesaler delivering premium fuels and sustainable energy solutions since 2024.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#fuel-request">Fuel Request</a></li>
+                    <li><a href="#map-section">Location</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Compliance</h4>
+                <ul class="footer-links">
+                    <li>SANS 10089 Certified</li>
+                    <li>DMRE Licensed</li>
+                    <li>ISO Best Practices</li>
+                    <li>Level 1 B-BBEE</li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2024 Xhaxha Petroleum (Pty) Ltd. All rights reserved. | Reg No: 2024/286983/07</p>
+        <p style="margin-top: 1rem; opacity: 0.7;">Fuelling the Future Together</p>
+    </footer>
+
+    <a href="#home" class="back-to-top" id="backToTop">↑</a>
+
+    <Script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></Script>
+    <script src="Script.js"></script>
+
+</body>
+</html>
